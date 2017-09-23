@@ -30,7 +30,7 @@ public class Test {
 		HttpRequest request = new HttpRequest();
 		request.setHost(Config.host);
 		request.setHttpMethod("GET");
-		request.setResourcePath("/Devices/000125303018/State/");
+		request.setResourcePath("/");
 		request.setDate(getCurrentTimeInHttpFormat());
 		request.setAcceptHeader("application/vnd.miele.v1+json");
 		request.setContentTypeHeader(null);
